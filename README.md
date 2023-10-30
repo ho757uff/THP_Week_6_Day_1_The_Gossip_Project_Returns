@@ -14,7 +14,7 @@ FreeDoc est une application Rails qui permet de gérer des rendez-vous entre mé
 
 ### Configuration
 1. Clonez ce dépôt :
-git clone [URL_DU_REPO]
+git clone [https://github.com/ho757uff/THP_Week_6_Day_1_The_Gossip_Project_Returns.git]
 
 2. Installez les dépendances :
 bundle install
@@ -25,8 +25,8 @@ rails db:create
 4. Effectuez les migrations et remplissez la base de données avec des données d'exemple :
 rails db:migrate db:seed
 
-5. Effectuer les tests :
-rails test
+5. Check it out :
+rails server
 
 
 ### Troubleshooting
