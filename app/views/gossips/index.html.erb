@@ -1,0 +1,13 @@
+<h1 class="text-center mt-4">Welcome to The Gossip Project!</h1>
+
+<div class="container mt-4">
+  <% @gossips.each do |gossip| %>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title"><%= gossip.title %></h5>
+        <p class="card-text">By: <%= gossip.user.first_name %></p>
+        <%= link_to 'Voir plus', gossip_path(gossip), class: "btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+</div>
