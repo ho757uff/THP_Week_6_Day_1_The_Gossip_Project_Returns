@@ -1,6 +1,6 @@
 # The Gossip Project Returns
 
-FreeDoc est une application Rails qui permet de gérer des rendez-vous entre médecins et patients. C'est une alternative à Doctolib, conçue pour offrir une expérience utilisateur simplifiée et efficace.
+TGPR est une application Rails qui permet de d'afficher des potins. Conçue pour offrir une expérience utilisateur simplifiée et efficace pour consulter des potins.
 
 ## Prérequis
 
